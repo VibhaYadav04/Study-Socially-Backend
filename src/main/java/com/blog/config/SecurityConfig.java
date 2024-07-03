@@ -86,7 +86,7 @@ public class SecurityConfig {
 			@Override
 			public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
 				CorsConfiguration corsConfiguration = new CorsConfiguration();
-				corsConfiguration.setAllowedOrigins(Arrays.asList("http://localhost:3000", "https://vibhayadav-study-socially.vercel.app"));
+				corsConfiguration.setAllowedOrigins(Arrays.asList("http://localhost:3000", "https://vibhayadav-study-socially.vercel.app/signup", "https://vibhayadav-study-socially.vercel.app/login" ));
 				corsConfiguration.setAllowedMethods(Collections.singletonList("*"));
 				corsConfiguration.setAllowCredentials(true);
 				corsConfiguration.setAllowedHeaders(Collections.singletonList("*"));
